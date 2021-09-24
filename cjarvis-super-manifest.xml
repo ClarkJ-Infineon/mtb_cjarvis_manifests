@@ -1,10 +1,5 @@
 <super-manifest>
-  <board-manifest-list>
-  </board-manifest-list>
-  
   <app-manifest-list>
-    <app-manifest>
-    </app-manifest>
   </app-manifest-list>
   <board-manifest-list>
 	<board-manifest dependency-url="https://raw.githubusercontent.com/ClarkJ-Infineon/mtb_cjarvis_manifests/main/cjarvis-bsp-dependencies-manifest.xml">
