@@ -4,15 +4,13 @@
   
   <app-manifest-list>
     <app-manifest>
-      <uri>https://github.com/iotexpert/mtb2-iotexpert-manifests/raw/master/iotexpert-app-manifest.xml</uri>
-      </app-manifest>
-   </app-manifest-list>
+    </app-manifest>
+  </app-manifest-list>
   <board-manifest-list>
+	<board-manifest dependency-url="https://raw.githubusercontent.com/ClarkJ-Infineon/mtb_cjarvis_manifests/main/cjarvis-bsp-dependencies-manifest.xml">
+      <uri>https://raw.githubusercontent.com/ClarkJ-Infineon/mtb_cjarvis_manifests/main/cjarvis-bsp-manifest-fv2.xml</uri>
+    </board-manifest>
   </board-manifest-list>
   <middleware-manifest-list>
-    <middleware-manifest dependency-url="https://github.com/iotexpert/mtb2-iotexpert-manifests/raw/master/iotexpert-mw-dependencies.xml">
-      <uri>https://github.com/iotexpert/mtb2-iotexpert-manifests/raw/master/iotexpert-mw-manifest.xml</uri>
-    </middleware-manifest>
   </middleware-manifest-list>
 </super-manifest>
-
