@@ -2,14 +2,14 @@
   <board default_location="local">
     <id>CLICKER2-PSOC6</id>
     <category>PSoC 6 BSPs</category>
-    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-BLE</board_uri>
+    <board_uri>https://github.com/ClarkJ-Infineon/TARGET_CLICKER2_PSOC6</board_uri>
     <chips>
       <mcu>CY8C6347BZI-BLD53</mcu>
     </chips>
     <name>CLICKER2-PSOC6</name>
     <summary>Clicker 2 for PSoC® 6</summary>
     <prov_capabilities>adc arduino ble capsense capsense_button capsense_linear_slider cat1 comp cy8ckit_062_ble dac dma flash_1024k fram hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash opamp pdm psoc6 qspi rgb_led rtc smart_io spi sram_288k std_crypto switch uart udb</prov_capabilities>
-    <description>Clicker 2 for PSoC® 6 is a compact development kit with two mikroBUS™ sockets for click board connectivity, an ideal solution for rapid development of custom applications. It is equipped with the PSoC® 6, a dual-core 32-bit CY8C6347BZI-BLD53 Microcontroller Unit (MCU). This powerful device is a combination of ARM® Cortex™ based dual-core MCU with low-power flash technology and digital programmable logic, programmable analog resources, industry-leading CapSense® technology, and other standard communication and timing peripherals. One of the key features of this MCU is the support for the BLE 5 compliant wireless connectivity. Supported by the PSoC® Creator and equipped with the KitProg2 compatible onboard programmer, this board is the ultimate development platform for building portable and IoT applications in the entire range of Clicker 2 products.</description>
+    <description>A compact development kit with two mikroBUS™ sockets for click board connectivity, an ideal solution for rapid development of custom applications. It is equipped with the PSoC® 6, a dual-core 32-bit CY8C6347BZI-BLD53 Microcontroller Unit (MCU). This powerful device is a combination of ARM® Cortex™ based dual-core MCU with low-power flash technology and digital programmable logic, programmable analog resources, industry-leading CapSense® technology, and other standard communication and timing peripherals. One of the key features of this MCU is the support for the BLE 5 compliant wireless connectivity.</description>
     <documentation_url>https://www.mikroe.com/clicker-2-psoc6</documentation_url>
     <versions>
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
